@@ -1,0 +1,22 @@
+Seth Crawford
+sacrawfo@ucsc.edu
+1304569
+
+scc03.c
+Makefile
+README
+intList.h
+intList.c
+loadGraph.h
+loadGraph.c
+gr02_test0.in
+gr02_test1.in
+gr02_test2.in
+gr02_test3.in
+gr02_test4.in
+"make scc03" will make the proper files.
+Run it by giving it a file to read from, in the format "scc03 testfile"
+
+scc03.c will take ordered pairs as inputs and print them in an organized manner. Then it will run a depth first search on the graph that was created and show the discover time, finish time, and parent. Then it will print out a stack of the vertices in reverse finish time order.
+
+
